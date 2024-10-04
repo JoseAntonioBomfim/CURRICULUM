@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    background-color: cadetblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    background-color: cadetblue;
+    padding: 10px 30px 10px 20px;
+    text-align: justify;
+}
+
+.foto {
+    border-radius: 100%;
+    border: solid;
+    height: 250px;
+    width: 200px;
+    margin: 0 0 0 70px;
+}
+
+.idioma, .contato, .nome {
+    margin-top: 10px;
+    border-bottom: solid;
+    font-size: 20px;
+    
+}
+h2 {
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 10px;
+    border: solid;
+    border-color: aquamarine;
+
+}
+#formacao{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+#formacao.mostrar {
+    max-height: 150px; /* Ajuste o valor conforme o conteúdo */
+    transition: max-height 0.5s ease-in;
+}
+#profissional{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+#profissional.mostrar {
+    max-height: 2000px; /* Ajuste o valor conforme o conteúdo */
+    transition: max-height 0.5s ease-in;
+}
+#cursos{
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+#cursos.mostrar {
+    max-height: 2000px; /* Ajuste o valor conforme o conteúdo */
+    transition: max-height 0.5s ease-in;
+}
+h1 {
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
